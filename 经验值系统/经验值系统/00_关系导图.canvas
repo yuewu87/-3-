@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"82853cce4cd8e458","type":"text","text":"学习经验系统","x":-140,"y":-440,"width":250,"height":60,"color":"1"},
+		{"id":"91cfa2d2f69087a7","type":"text","text":"不是学习应用","x":200,"y":-120,"width":175,"height":50},
+		{"id":"d12fe1a0828a4924","type":"text","text":"是学习应用","x":460,"y":-120,"width":160,"height":50},
+		{"id":"00a48ba994d88c82","type":"text","text":"经验增长","x":473,"y":0,"width":135,"height":50},
+		{"id":"9678fbcb24e7e127","type":"text","text":"经验不增长","x":215,"y":0,"width":145,"height":50},
+		{"id":"1cce13da661d9764","type":"text","text":"[[02_GUI系统]]","x":-140,"y":-275,"width":250,"height":60,"color":"6"},
+		{"id":"2a57d5924adc51c0","type":"text","text":"网页 pass","x":7,"y":0,"width":133,"height":50},
+		{"id":"e467dfa55dbe8509","type":"text","text":"显示经验值的进度与等级","x":-140,"y":-144,"width":250,"height":60},
+		{"id":"d9077af569017486","type":"text","text":"悬浮窗    ✓","x":-175,"y":0,"width":160,"height":50},
+		{"id":"7e88f8a3e5ae44d0","type":"text","text":"[[03_经验值系统]]","x":-497,"y":-270,"width":204,"height":55,"color":"6"},
+		{"id":"ac33bc6b7ac221e3","type":"text","text":"使用json文件存储数据","x":-520,"y":-144,"width":250,"height":60},
+		{"id":"5e3f562de6d84378","type":"text","text":"[[01_监测系统]]","x":340,"y":-270,"width":180,"height":57,"color":"6"},
+		{"id":"e958bb291f76a988","type":"text","text":"[[04_经济物品系统]]","x":-520,"y":-660,"width":250,"height":60,"color":"6"},
+		{"id":"7614dd0084e3674f","type":"text","text":"也使用json文件管理数据","x":-520,"y":-805,"width":250,"height":60},
+		{"id":"281e69c00102c493","type":"text","text":"[[06_AI 系统]]","x":341,"y":-660,"width":160,"height":60,"color":"6"},
+		{"id":"2af372c8cc88281a","type":"text","text":"分辨内容是否与学习相关","x":288,"y":-805,"width":265,"height":60},
+		{"id":"fcb3284dc968396c","type":"text","text":"[[05_奖励系统]]","x":-140,"y":-660,"width":250,"height":60,"color":"6"},
+		{"id":"8f31203a444c9118","type":"text","text":"升级奖励, 任务奖励","x":-140,"y":-805,"width":250,"height":60},
+		{"id":"fcb1fd7a5d262a0b","type":"text","text":"[[07_其他设想]]","x":553,"y":-440,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"10c1949a91fbe9f9","fromNode":"5e3f562de6d84378","fromSide":"bottom","toNode":"91cfa2d2f69087a7","toSide":"top"},
+		{"id":"67253a9ab9a2ea9d","fromNode":"5e3f562de6d84378","fromSide":"bottom","toNode":"d12fe1a0828a4924","toSide":"top"},
+		{"id":"d9c6d55fd2375a4a","fromNode":"82853cce4cd8e458","fromSide":"bottom","toNode":"5e3f562de6d84378","toSide":"top"},
+		{"id":"84a7b070da64cb35","fromNode":"91cfa2d2f69087a7","fromSide":"bottom","toNode":"9678fbcb24e7e127","toSide":"top"},
+		{"id":"80fb32bff33e9857","fromNode":"d12fe1a0828a4924","fromSide":"bottom","toNode":"00a48ba994d88c82","toSide":"top"},
+		{"id":"9d13cfb438404e8c","fromNode":"82853cce4cd8e458","fromSide":"bottom","toNode":"1cce13da661d9764","toSide":"top"},
+		{"id":"4aad60903f80ad49","fromNode":"1cce13da661d9764","fromSide":"bottom","toNode":"e467dfa55dbe8509","toSide":"top"},
+		{"id":"2011a6846a269312","fromNode":"e467dfa55dbe8509","fromSide":"bottom","toNode":"d9077af569017486","toSide":"top"},
+		{"id":"204636c466912345","fromNode":"e467dfa55dbe8509","fromSide":"bottom","toNode":"2a57d5924adc51c0","toSide":"top"},
+		{"id":"14f7a14daaf234fd","fromNode":"82853cce4cd8e458","fromSide":"top","toNode":"281e69c00102c493","toSide":"bottom"},
+		{"id":"9caeef80a306a0d6","fromNode":"281e69c00102c493","fromSide":"top","toNode":"2af372c8cc88281a","toSide":"bottom"},
+		{"id":"fe3cb9c06792725f","fromNode":"7e88f8a3e5ae44d0","fromSide":"bottom","toNode":"ac33bc6b7ac221e3","toSide":"top"},
+		{"id":"2b2c4aac3177b075","fromNode":"82853cce4cd8e458","fromSide":"bottom","toNode":"7e88f8a3e5ae44d0","toSide":"top"},
+		{"id":"8b308ab6478de217","fromNode":"82853cce4cd8e458","fromSide":"top","toNode":"e958bb291f76a988","toSide":"bottom"},
+		{"id":"48c9ec0fbff47666","fromNode":"e958bb291f76a988","fromSide":"top","toNode":"7614dd0084e3674f","toSide":"bottom"},
+		{"id":"0dc15141f9032feb","fromNode":"82853cce4cd8e458","fromSide":"top","toNode":"fcb3284dc968396c","toSide":"bottom"},
+		{"id":"02cf29ea5a6cc6ef","fromNode":"fcb3284dc968396c","fromSide":"top","toNode":"8f31203a444c9118","toSide":"bottom"},
+		{"id":"c4653686e87f7684","fromNode":"82853cce4cd8e458","fromSide":"right","toNode":"fcb1fd7a5d262a0b","toSide":"left"}
+	]
+}
